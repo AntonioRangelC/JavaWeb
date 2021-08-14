@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>Cadastro de aluno</title>
+	</head>
+	<body>
+		<h1>Insira os dados do aluno</h1>
+		<form action="CadastraAlunos" method="post">
+			<div id="nomeCompleto">
+				<p id="rotuloNome">Nome completo:</p>
+				<input type="text" id="nome" name="nome"></input>
+			</div>
+			<div id="matricula">
+				<p id="rotuloMat">Matricula:</p>
+				<input type="text" id="matricula" name="matricula"></input>
+			</div>
+			<div id="curso">
+				<p id="rotuloCurso">Curso:</p>
+				<input type="text" id="curso" name="curso"></input>
+			</div>
+			<div id="semestreAtual">
+				<p id="rotuloSemestre">Semestre atual:</p>
+				<input type="text" id="semestreAtual" name="semestreAtual"></input>
+			</div>
+			<div id="IRA">
+				<p id="rotuloIRA">Índice de rendimento acadêmico:</p>
+				<input type="text" id="IRA" name="IRA"></input>
+			</div>
+			<div id="botaoEnviar">
+				<input type="submit" id="botaoEnviar" value="Enviar"></input>
+			</div>
+			
+		</form>
+	</body>
+	<style>
+		body{
+			display: flex;
+			flex-direction: column;
+		}
+		div#nomeCompleto{
+			margin-left: 2rem;
+			margin-top: 1rem;
+			width: 30rem;
+			display: flex;
+			height: 1rem;
+		}
+		div#matricula{
+			margin-top: 2rem;
+			margin-left: 2rem;
+			width: 30rem;
+			display: flex;
+			
+		}
+		div#curso{
+			margin-top: 2rem;
+			margin-left: 2rem;
+			width: 30rem;
+			display: flex;
+		}
+		div#semestreAtual{
+			margin-top: 2rem;
+			margin-left: 2rem;
+			width: 30rem;
+			display: flex;
+		}
+		div#IRA{
+			margin-top: 2rem;
+			margin-left: 2rem;
+			width: 30rem;
+			display: flex;
+		}
+		div#botaoEnviar{
+			margin-top: 2rem;
+			margin-left: 2rem;
+			width: 15rem;
+			height: 2rem;
+			background-color: red;
+		}
+		#nome{
+			width: 15rem;
+			height: 1rem;
+			align-self: center;
+		}
+		#matricula{
+			height: 1rem;
+			width: 10rem;
+			align-self: center;
+		}
+		#curso{
+			width: 15rem;
+			height: 1rem;
+			align-self: center;
+		}
+		#semestreAtual{
+			width: 5rem;
+			height: 1rem;
+			align-self: center;
+		}
+		#IRA{
+			width: 5rem;
+			height: 1rem;
+			align-self: center;
+		}
+		p#rotuloNome{
+			width: 9rem;
+			align-self: center;
+
+		}
+		p#rotuloMat{
+			align-self: center;
+			width: 9rem;
+		}
+		p#rotuloCurso{
+			align-self: center;
+			width: 9rem;
+		}
+		p#rotuloSemestre{
+			align-self: center;
+			width: 9rem;
+		}
+		p#rotuloIRA{
+			align-self: center;
+			width: 9rem;
+		}
+	</style>
+</html>
